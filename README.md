@@ -40,7 +40,7 @@ You can find the lcm (least common multiplier) value with this function.
 You can enter as many arguments as you want to this function and get the lcm value.
 
 ## getIntegerMultipliers
-You can get the number that you entered's multipliers.
+You can get the number that you entered's multipliers with this function.
 ```
 >>> getIntegerMultipliers(12)
 [1, 2, 3, 4, 6, 12]
@@ -48,5 +48,16 @@ You can get the number that you entered's multipliers.
 [1, 5, 25]
 >>> getIntegerMultipliers(30)
 [1, 2, 3, 5, 6, 10, 15, 30]
+```
+
+## getPrimeMultipliers
+This function returns the prime factors of the value you enter according to their exponent values
+```
+>>> getPrimeMultipliers(20)
+[[2, 2], [5, 1]]
+>>> getIntegerMultipliers(51)
+[[3, 1], [17, 1]]
+>>> getIntegerMultipliers(300)
+[[2, 2], [3, 1], [5, 2]]
 ```
 
