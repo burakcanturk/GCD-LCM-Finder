@@ -95,12 +95,14 @@ This function returns all primes up to this point.
 ```
 If the number you enter is a prime number, this function also includes that number.
 
-## findPrimesUntil(num)
-This function returns all primes up to this point.
+## isPrimeAmong(x, *y)
+This function returns whether the numbers you enter are prime or not.
 ```
->>> findPrimesUntil(20)
-[2, 3, 5, 7, 11, 13, 17, 19]
->>> findPrimesUntil(43)
-[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]
+>>> isPrimeAmong(8, 10)
+False
+>>> isPrimeAmong(8, 10, 15)
+True
+>>> isPrimeAmong(12, 19)
+True
 ```
-If the number you enter is a prime number, this function also includes that number.
+You can enter as many arguments as you want to this function and get is these number prime among them or not.
