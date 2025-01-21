@@ -8,3 +8,5 @@ pip install gcd-lcm-calculator
 ```
 
 ## Commands:
+
+You can find the gcd (greatest common dividor) value with this function.
