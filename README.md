@@ -38,3 +38,15 @@ You can find the lcm (least common multiplier) value with this function.
 120
 ```
 You can enter as many arguments as you want to this function and get the lcm value.
+
+## getIntegerMultipliers
+You can get the number that you entered's multipliers.
+```
+>>> getIntegerMultipliers(12)
+[1, 2, 3, 4, 6, 12]
+>>> getIntegerMultipliers(25)
+[1, 5, 25]
+>>> getIntegerMultipliers(30)
+[1, 2, 3, 5, 6, 10, 15, 30]
+```
+
