@@ -83,16 +83,6 @@ This function returns all primes up to this point.
 >>> findPrimesUntil(43)
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]
 ```
-Note: 
-
-## findPrimesUntil(num)
-This function returns all primes up to this point.
-```
->>> findPrimesUntil(20)
-[2, 3, 5, 7, 11, 13, 17, 19]
->>> findPrimesUntil(43)
-[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]
-```
 If the number you enter is a prime number, this function also includes that number.
 
 ## isPrimeAmong(x, *y)
