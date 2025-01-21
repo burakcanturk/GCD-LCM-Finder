@@ -6,3 +6,5 @@ You can find the gcm (greatest common divisior) and lcm (least command multiplie
 ```
 pip install gcd-lcm-calculator
 ```
+
+## Commands:
