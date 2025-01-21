@@ -106,3 +106,15 @@ True
 True
 ```
 You can enter as many arguments as you want to this function and get is these number prime among them or not.
+
+## getMostPrime(x, *y)
+This function returns the most prime form of the numbers you enter.
+```
+>>> getMostPrime(8, 10)
+[4, 5]
+>>> getMostPrime(12, 15, 18)
+[4, 5, 6]
+>>> getMostPrime(1920, 1080)
+[16, 9]
+```
+You can enter as many arguments as you want to this function and get the most prime form of the numbers you entered.
