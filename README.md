@@ -18,7 +18,7 @@ from gcdlcm import *
 I will give this library's command with the second one.
 
 ### Commands:
-
+## gcd
 You can find the gcd (greatest common dividor) value with this function.
 ```
 >>> gcd(18, 12)
