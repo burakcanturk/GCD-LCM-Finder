@@ -19,7 +19,7 @@ I will give this library's command with the second one.
 
 ### Commands:
 
-## gcd
+## gcd(e, *b)
 You can find the gcd (greatest common dividor) value with this function.
 ```
 >>> gcd(18, 12)
@@ -29,7 +29,7 @@ You can find the gcd (greatest common dividor) value with this function.
 ```
 You can enter as many arguments as you want to this function and get the gcd value.
 
-## lcm
+## gcd(e, *k)
 You can find the lcm (least common multiplier) value with this function.
 ```
 >>> lcm(8, 10)
@@ -39,7 +39,7 @@ You can find the lcm (least common multiplier) value with this function.
 ```
 You can enter as many arguments as you want to this function and get the lcm value.
 
-## getIntegerMultipliers
+## getIntegerMultipliers(num)
 You can get the number that you entered's multipliers with this function.
 ```
 >>> getIntegerMultipliers(12)
@@ -50,7 +50,7 @@ You can get the number that you entered's multipliers with this function.
 [1, 2, 3, 5, 6, 10, 15, 30]
 ```
 
-## getPrimeMultipliers
+## getPrimeMultipliers(num)
 This function returns the prime factors of the value you enter according to their exponent values
 ```
 >>> getPrimeMultipliers(20)
@@ -64,13 +64,22 @@ As an example:<br>
 300's prime multipliers: 2, 3, 5<br>
 2^2 * 3^1 * 5^2 = 300
 
-## isPrime
+## isPrime(num)
 This function returns the number that you entered is prime number or not.
 ```
 >>> isPrime(20)
 False
 >>> isPrime(17)
 True
->>> isPrime(58)
+>>> isPrime(1)
 False
+```
+
+## findPrimesUntil(num)
+This function returns all primes up to this point.
+```
+>>> findPrimesUntil(20)
+[2, 3, 5, 7, 11, 13, 17, 19]
+>>> findPrimesUntil(43)
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]
 ```
