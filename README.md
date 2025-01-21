@@ -64,3 +64,13 @@ As an example:<br>
 300's prime multipliers: 2, 3, 5<br>
 2^2 * 3^1 * 5^2 = 300
 
+## isPrime
+This function returns the number that you entered is prime number or not.
+```
+>>> isPrime(20)
+False
+>>> isPrime(17)
+True
+>>> getIntegerMultipliers(58)
+False
+```
