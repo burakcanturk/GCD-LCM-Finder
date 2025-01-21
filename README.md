@@ -60,7 +60,7 @@ This function returns the prime factors of the value you enter according to thei
 >>> getIntegerMultipliers(300)
 [[2, 2], [3, 1], [5, 2]]
 ```
-As an example:<br>
+<b>As an example:</b><br>
 300's prime multipliers: 2, 3, 5<br>
 2^2 * 3^1 * 5^2 = 300
 
@@ -74,6 +74,16 @@ True
 >>> isPrime(1)
 False
 ```
+
+## findPrimesUntil(num)
+This function returns all primes up to this point.
+```
+>>> findPrimesUntil(20)
+[2, 3, 5, 7, 11, 13, 17, 19]
+>>> findPrimesUntil(43)
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]
+```
+Note: 
 
 ## findPrimesUntil(num)
 This function returns all primes up to this point.
