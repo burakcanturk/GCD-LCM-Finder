@@ -71,6 +71,6 @@ This function returns the number that you entered is prime number or not.
 False
 >>> isPrime(17)
 True
->>> getIntegerMultipliers(58)
+>>> isPrime(58)
 False
 ```
