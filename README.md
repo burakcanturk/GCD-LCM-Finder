@@ -26,3 +26,4 @@ You can find the gcd (greatest common dividor) value with this function.
 >>> gcd(18, 12, 15)
 3
 ```
+You can enter as many arguments as you want to this function and get the gcd value.
