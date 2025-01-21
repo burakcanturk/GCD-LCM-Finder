@@ -1,7 +1,7 @@
 Metadata-Version: 2.2
 Name: gcd-lcm-calculator
-Version: 1.0.0
-Summary: This is a library for Quectel Modules.
+Version: 1.0.1
+Summary: You can find the gcm (greatest common divisior) and lcm (least command multiplier) of the numbers. And also you can find the other values of the primity.
 Home-page: https://github.com/burakcanturk/Quectel-5G-LTE-Module-Library.git
 Author: Burak Cantürk
 Author-email: burakcanturk12@gmail.com
