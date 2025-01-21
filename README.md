@@ -15,6 +15,7 @@ or
 ```
 from gcdlcm import *
 ```
+I will give this library's command with the second one.
 
 ## Commands:
 
