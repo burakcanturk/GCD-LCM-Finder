@@ -60,4 +60,7 @@ This function returns the prime factors of the value you enter according to thei
 >>> getIntegerMultipliers(300)
 [[2, 2], [3, 1], [5, 2]]
 ```
+As an example: 
+300's prime multipliers: 2, 3, 5
+2^2 * 3^1 * 5^2 = 300
 
