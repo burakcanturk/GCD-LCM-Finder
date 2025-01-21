@@ -22,5 +22,8 @@ I will give this library's command with the second one.
 You can find the gcd (greatest common dividor) value with this function.
 
 ```
-from gcdlcm import *
+>>> gcd(18, 12)
+6
+>>> gcd(18, 12, 15)
+3
 ```
