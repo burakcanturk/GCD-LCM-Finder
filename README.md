@@ -18,6 +18,7 @@ from gcdlcm import *
 I will give this library's command with the second one.
 
 ### Commands:
+
 ## gcd
 You can find the gcd (greatest common dividor) value with this function.
 ```
@@ -27,3 +28,13 @@ You can find the gcd (greatest common dividor) value with this function.
 3
 ```
 You can enter as many arguments as you want to this function and get the gcd value.
+
+## lcm
+You can find the lcm (least common multiplier) value with this function.
+```
+>>> lcm(8, 10)
+40
+>>> lcm(8, 10, 15)
+120
+```
+You can enter as many arguments as you want to this function and get the lcm value.
