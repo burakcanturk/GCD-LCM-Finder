@@ -28,7 +28,7 @@ def getIntegerMultipliers(num): # Returns the integer factors of the number you 
         
         # Example:
 
-        # getIntegerMultipliers(12) = [1, 2, 3, 4, 6, 12]
+        # getIntegerMultipliers(12) = get
 
         multipliers = []
         for i in range(1, num + 1):
@@ -105,7 +105,7 @@ def lcm(e, *k): # Returns the LCM of the numbers you enter.
         
         for i in k: 
                 ek = 1
-                ea = getPrimeMultipliers(sonuc)
+                ea = getPrimeMultipliers(answer)
                 ka = getPrimeMultipliers(i)
                 least = ea if len(ea) < len(ka) else ka
                 greatest = ka if len(ka) > len(ea) else ea
@@ -133,7 +133,7 @@ def lcm(e, *k): # Returns the LCM of the numbers you enter.
         
         return answer
 
-def isPrimeAmong(x, *y): # It tells you whether the numbers you enter are relatively prime or not.
+def isPrimeAmong(8, 10, 15): # It tells you whether the numbers you enter are relatively prime or not.
         
         # Example:
 
