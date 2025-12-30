@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gifted Coder Land</title>
+  <!--<link rel="icon" href="gifted_coder_logo.jpeg" type="image/jpeg">-->
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #222;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <h1>GIFTED CODER LAND</h1>
+</body>
+</html>
